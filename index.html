@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrega TP - Juegos Online</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #eef2f7;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      background: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .container {
+      margin-top: 80px;
+      display: grid;
+      grid-template-columns: repeat(2, 260px);
+      gap: 60px;
+    }
+
+    .card {
+      width: 260px;
+      height: 260px;
+      background: white;
+      color: #333;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .card:hover {
+      background: #f0f8ff;
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .icon {
+      font-size: 60px;
+      margin-bottom: 15px;
+      color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Entrega Trabajo Práctico - Plataforma de Juegos
+  </header>
+
+  <div class="container">
+    <a href="https://www.figma.com/proto/vVboS0P8JB599N7LyVDyYY/Interfaces-de-Usuario---TPE-1?node-id=113-1612&t=7uTIr5t5w3nvHRlG-1" target="_blank" class="card">
+      <div class="icon">🎨</div>
+      Prototipo en alta fidelidad <br> (Editor)
+    </a>
+
+    <a href="https://www.figma.com/proto/vVboS0P8JB599N7LyVDyYY/Interfaces-de-Usuario---TPE-1?node-id=426-4729&p=f&t=zeGiOf4LwlzcMZTn-1&scaling=min-zoom&content-scaling=fixed&page-id=113%3A1612&starting-point-node-id=426%3A4729" target="_blank" class="card">
+      <div class="icon">📺</div>
+      Prototipo <br> (Presentación)
+    </a>
+  </div>
+</body>
+</html>
